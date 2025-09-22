@@ -21,7 +21,7 @@
     }
     public void setPrice(Integer price) {
         this.price = price;
-    }
+    } 
     @Override
     public String toString() {
         return "Car [name=" + name + ", colour=" + colour + ", price=" + price + "]";
@@ -29,12 +29,12 @@
 
 }
 
-public class pojodemo{
+public class Pojodemo{
     public static void main(String[] args) {
         Car car = new Car();
         car.setName("BMW");
         car.setColour("black"); 
-        car.setPrice(100000);
-        System.out.println(car);
+        car.setPrice(5000000);
+        System.out.println(car);     
     }
 }
