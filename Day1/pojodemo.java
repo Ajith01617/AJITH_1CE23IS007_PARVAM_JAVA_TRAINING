@@ -46,10 +46,10 @@ class Car{
 public class Pojodemo{
     public static void main(String[] args) {
         Car c = new Car();
-        String[] name = {"Bmw","Audi","Benz","Toyato"};
-        String[] colour = {"Black","red","white","Torcoise"};
-        Integer[] price = {10000, 2000, 400,60};
-        Integer[] year= {1998,2000,2022,2002};
+        String[] name = {"Bmw","Audi","Benz","Toyato","Tata"};
+        String[] colour = {"Black","red","white","Torcoise","Grey"};
+        Integer[] price = {10000, 2000, 400,60,10};
+        Integer[] year= {1998,2000,2022,2002,1990};
         c.setName(name);
         c.setColour(colour);
         c.setPrice(price);
